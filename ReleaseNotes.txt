@@ -11,7 +11,8 @@ THINGS TO NOTE!!!!
     
     - The SD Card on the Rev A is not yet supported.
 
-    - The kernel is now 32kB -- that's FOUR flash slots!
+    - The kernel is 40kB -- FIVE flash slots!  FAT32 support is
+      spread over two slots alone, although there is some empty space.
 
     - The kernel is only probing the SD Card once, at startup;
       for now, you will need to reboot when you swap cards.
